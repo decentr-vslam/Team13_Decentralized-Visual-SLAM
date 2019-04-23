@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Data-Efficinet Decentralized Visual SLAM Project
 
-You can use the [editor on GitHub](https://github.com/decentr-vslam/decentr-vslam.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a python implementation of a data-efficient approach of Decentralized Visual SLAM. This was implemented by Team 13 (Aishwarya Unnikrishnan, Devesha Tewari, Lu Wen, and Haonan Chang) for the course EECS 568: Mobile Robotics.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Overview
+Multi-robobot decentralized systems are becoming more popular. However, they typically involve exchanging the entire map data between robots. The corresponding complexity thus scales quadratically with robot count. TO overcome this, we implement a data-efficient method by using a compact a  compactimage descriptor leveraging a state-of-the art visual vocabularymethod  and  only  sends  data  for  relative  pose  estimation  fora  single  matched  robot.  This  reduces  the  complexity,  scaling linearly with robot count. State-of-the-art decentralized pose-graph optimization method using a two stage- distributed Gauss-Seidel approach is also implemented.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image](https://github.com/decentr-vslam/team13-decentr_vslam.github.io/blob/master/images/system_overview.PNG)
 
-```markdown
-Syntax highlighted code block
+The above diagram shows the modules of our system, which are executed on each robot. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/decentr-vslam/decentr-vslam.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Results
