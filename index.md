@@ -18,9 +18,3 @@ KITTI00 dataset is split based on the number of specified robots:
 
 The final plot is made after the simulation was done in Python.
 ![image](./images/final.png)
-
-The following are the analysis results. 
-![image](./images/totaldatatransmission.png)
-![image](./images/transition.png)
-![image](./images/accuracy.jpg)
-
