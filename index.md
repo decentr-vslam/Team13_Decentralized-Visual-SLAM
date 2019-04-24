@@ -11,4 +11,3 @@ The following diagram shows the modules of our system, which are executed on eac
 ![image](https://raw.githubusercontent.com/decentr-vslam/Team13_Decentralized-Visual-SLAM/master/images/system_overview.PNG)
 
 
-## Results
