@@ -17,5 +17,5 @@ KITTI00 dataset is split based on the number of specified robots:
 ![image](https://raw.githubusercontent.com/decentr-vslam/Team13_Decentralized-Visual-SLAM/master/images/kitti_split.png)
 
 The final plot is made after the simulation was done in Python.
-![image](https://raw.githubusercontent.com/decentr-vslam/Team13_Decentralized-Visual-SLAM/master/images/final.png)
+![image](./images/final.png =100x20)
 
